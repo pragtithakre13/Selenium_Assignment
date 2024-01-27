@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 class AlertsPage:
+
     ALERT_BUTTON = (By.XPATH, '//button[normalize-space()="Alert"]')
     CONFIRM_BOX=(By.XPATH,'//button[normalize-space()="Confirm Box"]')
     PROMPT_BUTTON = (By.XPATH, '//button[normalize-space()="Prompt"]')
